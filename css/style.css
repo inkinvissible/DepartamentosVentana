@@ -85,13 +85,14 @@ a:hover, a:focus {
 
 body {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #777777;
 }
 
-.font-playfair {
+.logoDV {
+  font-size: 3em;
   font-family: "Playfair Display", serif;
 }
 
@@ -102,6 +103,11 @@ section {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
   font-weight: 600;
+}
+
+h1{
+  font-size: 3em!important;
+  letter-spacing: 2px;
 }
 
 button:focus {
@@ -174,12 +180,12 @@ button:focus {
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
-  background: #f3c300;
+  background: #A9996C;
   padding: 5px 30px;
 }
 
 .theme_btn:before {
-  background: #f8b100;
+  background: #A9996C;
 }
 
 .theme_btn:hover {
@@ -220,7 +226,7 @@ button:focus {
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
   z-index: -1;
-  background: #f8b100;
+  background: #83764a;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -343,7 +349,7 @@ button:focus {
 }
 
 .navbar .menu_nav .nav-item .nav-link {
-  font: 500 12px/80px "Poppins", sans-serif;
+  font: 500 14px/80px "Open Sans", sans-serif;
   color: #222222;
   text-transform: uppercase;
   padding: 0px;
@@ -505,7 +511,7 @@ button:focus {
 }
 
 .banner_area .bg-parallax {
-  background: url("../image/banner_bg.jpg") no-repeat scroll center 0/cover;
+  background: url("../image/banner_bg.png") no-repeat scroll center 0/cover;
   opacity: 0.50;
 }
 
@@ -554,7 +560,7 @@ button:focus {
 
 .banner_content p {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 24px;
   padding: 10px 0px 20px;
 }
