@@ -939,6 +939,7 @@ button:focus {
   border: 1px solid #eeeeee;
   background: #fff;
   padding: 40px;
+  height: 100%;
 }
 
 .testimonial_slider .testimonial_item img {
@@ -952,6 +953,7 @@ button:focus {
   line-height: 24px;
   margin-bottom: 0px;
   padding-bottom: 15px;
+  flex-grow: 1;
 }
 
 .testimonial_slider .testimonial_item .sec_h4 {
@@ -969,6 +971,7 @@ button:focus {
   color: #f3c300;
   font-size: 14px;
 }
+
 
 .testimonial_slider .owl-dots {
   text-align: center;
