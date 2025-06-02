@@ -3616,3 +3616,52 @@ h1, h2, h3, h4, h5, h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+/* Estilos para la sección de servicios */
+.servicios_area {
+  background-color: #f9f9ff;
+}
+
+.servicio_card {
+  background: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.servicio_card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 30px 0px rgba(153, 153, 153, 0.2);
+}
+
+.servicio_card .icon_box {
+  height: 70px;
+  width: 70px;
+  margin: 0 auto 20px;
+  background: #f3c300;
+  color: #fff;
+  font-size: 30px;
+  line-height: 70px;
+  border-radius: 50%;
+}
+
+.servicio_card h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #04091e;
+  font-weight: 600;
+}
+
+.servicio_card p {
+  margin-bottom: 0;
+  color: #777;
+}
+
+@media (max-width: 767px) {
+  .servicio_card {
+    margin-bottom: 20px;
+  }
+}
