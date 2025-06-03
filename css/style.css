@@ -3660,6 +3660,193 @@ h1, h2, h3, h4, h5, h6 {
   color: #777;
 }
 
+/* Estilos para la sección de galería mejorada */
+.gallery_preview_area {
+  background-color: #f9f9ff;
+  padding: 100px 0;
+}
+
+.gallery_box {
+  margin-top: 40px;
+}
+
+.gallery_grid {
+  margin-bottom: 30px;
+}
+
+.main_gallery_img, .gallery_thumb {
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.main_gallery_img:hover, .gallery_thumb:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.gallery_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 9, 30, 0.7);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.main_gallery_img:hover .gallery_overlay {
+  opacity: 1;
+}
+
+.overlay_content {
+  padding: 20px;
+  color: #fff;
+}
+
+.overlay_content h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hover_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(243, 195, 0, 0.2);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.gallery_thumb:hover .hover_overlay {
+  opacity: 1;
+}
+
+.gallery_info {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+/* Sobre Nosotros */
+.feature-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+.feature-card .card-img {
+  height: 200px;
+  overflow: hidden;
+}
+.feature-card img {
+  transition: transform 0.5s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.feature-card:hover img {
+  transform: scale(1.1);
+}
+.feature-card .card-body {
+  padding: 25px;
+  background-color: #fff;
+}
+.activity-item {
+  position: relative;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  /* transition: all 0.3s ease; */ /* Transición eliminada para quitar animación */
+  overflow: hidden;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+}
+.activity-item:hover {
+  /* transform: translateY(-5px); */ /* Animación eliminada */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15); /* Cambio de sombra se mantiene, pero será instantáneo */
+}
+.activity-item .activity-icon {
+  font-size: 36px;
+  color: #f3c300;
+  margin-bottom: 20px;
+  /* transition: transform 0.3s ease; */ /* Transición eliminada */
+}
+.activity-item:hover .activity-icon {
+  /* transform: rotate(360deg); */ /* Animación eliminada */
+}
+.about-us-section {
+  position: relative;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+.about-us-section .about-image {
+  position: relative;
+  /* border-radius: 10px;  /* Movido al style inline del div para mejor control con flex/object-fit */
+  /* overflow: hidden; /* Movido al style inline del div */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  /* Nuevos estilos para que el contenedor de imagen crezca con flex */
+  flex-grow: 1;
+  display: flex;
+}
+.about-us-section .about-image img {
+  width: 100%;
+  /* Estilos para que la imagen cubra el contenedor */
+  /* height: 100%; /* Aplicado inline */
+  /* object-fit: cover; /* Aplicado inline */
+}
+.about-us-section .about-image:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 100px;
+  height: 100px;
+  border-top: 5px solid #f3c300;
+  border-left: 5px solid #f3c300;
+  z-index: 1;
+}
+.about-us-section .about-image:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 100px;
+  height: 100px;
+  border-bottom: 5px solid #f3c300;
+  border-right: 5px solid #f3c300;
+  z-index: 1;
+}
+.counter-box {
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+.counter-number {
+  font-size: 42px;
+  font-weight: 700;
+  color: #cb964e;
+}
+.counter-text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.text-highlight {
+  color: #f3c300;
+}
+
 @media (max-width: 767px) {
   .servicio_card {
     margin-bottom: 20px;

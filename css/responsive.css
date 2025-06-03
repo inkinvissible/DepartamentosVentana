@@ -136,6 +136,9 @@
     .single-post-area .blog_right_sidebar{
         margin-top: 30px;
     }
+	.gallery_grid .col-lg-4 .row {
+		margin-top: 30px;
+	}
 }
 @media(max-width: 767px){
 	.about_content {
@@ -184,6 +187,9 @@
     .contact_form{
         margin-top: 30px;
     }
+	.gallery_preview_area {
+		padding: 70px 0;
+	}
 }
 @media(max-width: 575px){
 	.banner_content h2 {
@@ -236,3 +242,4 @@
         padding: 0px 8px;
     }
 }
+
