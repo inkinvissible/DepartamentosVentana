@@ -684,7 +684,7 @@ button:focus {
 }
 
 .breadcrumb_area .bg-parallax {
-  background: url("../image/about_banner.jpg") no-repeat scroll center 0/cover;
+  background: url("../image/banner/accomodation-banner.jpg") no-repeat scroll center 0/cover;
   opacity: 0.50;
   z-index: -1;
 }
@@ -783,6 +783,7 @@ button:focus {
   -webkit-transition: all 0.4s linear;
   -o-transition: all 0.4s linear;
   transition: all 0.4s linear;
+  cursor: pointer;
 }
 
 .accomodation_item .hotel_img .theme_btn {
@@ -3851,4 +3852,25 @@ h1, h2, h3, h4, h5, h6 {
   .servicio_card {
     margin-bottom: 20px;
   }
+}
+
+/*new styles for the accomodation section*/
+.accomodationUl{
+  padding: 0px;
+}
+.carrusel-image {
+  height: 390px;
+  width: 500px;
+  position: relative;
+}
+
+.carrusel-image .carousel-inner,
+.carrusel-image .carousel-item {
+  height: 100%;
+}
+
+.carrusel-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
