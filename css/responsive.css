@@ -101,6 +101,9 @@
 		margin-bottom: 94px;
 		margin-top: 124px;
 	}
+	.banner_content h1 {
+		font-size: 36px!important;
+	}
 	.accomodation_area .row{
 		max-width: 556px;
 		margin: 0px auto -30px;
