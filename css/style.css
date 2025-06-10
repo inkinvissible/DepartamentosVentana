@@ -3767,7 +3767,7 @@ h6 {
 
 
 /* Sobre Nosotros */
-.feature-card {
+.about-card {
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease;
@@ -3775,27 +3775,27 @@ h6 {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-.feature-card:hover {
+.about-card:hover {
   transform: translateY(-10px);
 }
 
-.feature-card .card-img {
+.about-card .card-img {
   height: 200px;
   overflow: hidden;
 }
 
-.feature-card img {
+.about-card img {
   transition: transform 0.5s ease;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.feature-card:hover img {
+.about-card:hover img {
   transform: scale(1.1);
 }
 
-.feature-card .card-body {
+.about-card .card-body {
   padding: 25px;
   background-color: #fff;
 }
