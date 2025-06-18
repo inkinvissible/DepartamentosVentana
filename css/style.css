@@ -693,7 +693,7 @@ button:focus {
 }
 
 .breadcrumb_area .bg-parallax {
-  background: url("../image/banner/sierra_ventana.jpg") no-repeat scroll center 0/cover;
+  background: url("../image/banner/accomodation-banner.jpg") no-repeat scroll center 0/cover;
   opacity: 0.50;
   z-index: -1;
 }
@@ -4035,4 +4035,39 @@ h6 {
 
 .whatsapp-button i {
   font-size: 30px;
+}
+
+/*mobile styles para carrusel accomodation*/
+@media (max-width: 768px) {
+  .pr-lg-5 {
+    padding-right: 0 !important;
+  }
+
+  .mb-5 {
+    margin-bottom: 1rem !important;
+  }
+
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  .carrusel-image{
+    width: 20em;
+    border-radius: 0px!important;
+    height: auto;
+  }
+  #carouselExampleIndicators {
+    width: 20em;
+    
+    
+  }
+  .paddingContainer{
+    padding-left: 25px;
+  }
+  .features-container{
+  flex-direction: column;
+  align-items: center;
+}
 }
