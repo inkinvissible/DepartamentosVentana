@@ -4054,17 +4054,13 @@ h6 {
     height: auto;
   }
   .carrusel-image{
-    width: 20em;
+    width: 100%;
     border-radius: 0px!important;
     height: auto;
   }
-  #carouselExampleIndicators {
-    width: 20em;
-    
-    
-  }
+  
   .paddingContainer{
-    padding-left: 25px;
+    padding: 0px;
   }
   .features-container{
   flex-direction: column;
